@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UX Test - Redesigned Product Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 820px;
+            background: #faf8fa;
+            color: #232142;
+            line-height: 1.75;
+        }
+        h1, h2 {
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: #342269;
+        }
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.6rem;
+            margin-top: 2.5em;
+            margin-bottom: 0.7em;
+            border-bottom: 2px solid #e8dff7;
+            padding-bottom: 0.2em;
+        }
+        .subheading {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #947faa;
+            margin-bottom: 1.5em;
+        }
+        .by {
+            text-align: center;
+            font-size: 1rem;
+            color: #8162a6;
+            font-style: italic;
+            margin-bottom: 0.8em;
+        }
+        .section {
+            margin-bottom: 2.5em;
+            padding: 1.7em;
+            background: #fff;
+            border-radius: 13px;
+            box-shadow: 0 3px 18px 2px #e9e1f2;
+        }
+        .section em {
+            background: #f5eaff;
+            padding: 0 7px;
+            border-radius: 6px;
+        }
+        .imgblock {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .imgblock img {
+            border-radius: 13px;
+            box-shadow: 0 5px 18px 2px #d1c7e4;
+            max-width: 90%;
+            height: auto;
+        }
+        .callouts {
+            display: block;
+            margin-top: 1.2em;
+            color: #382f5e;
+            font-size: 1.07em;
+        }
+        .links {
+            margin-top: 1em;
+            font-size: 1.08em;
+        }
+        .links a {
+            color: #714ed0;
+            text-decoration: underline;
+        }
+        ul {
+            margin: 1em 0 1em 2em;
+            padding-left: 1em;
+        }
+        .footer {
+            text-align: right;
+            font-size: 0.9em;
+            color: #aaa;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>UX Test</h1>
+    <div class="subheading">Redesigned Product Page</div>
+    <div class="by">by Iheagwara Augustine</div>
+
+    <div class="section">
+        <h2>Inspiration & Overview</h2>
+        <p>
+            This redesign was inspired by the IKEA product page (see inspiration link below), chosen for its effective clarity, clean structure, and conversion-focused layout. The goal was to modernize and streamline our product experience.
+        </p>
+        <div class="links">
+            Inspiration: <a href="https://www.ikea.com/us/en/cat/sofas-sectionals-fu003/?utm_source=chatgpt.com">IKEA Product Page</a><br>
+            Original Mockup: <a href="https://app.visily.ai/projects/ed6e7a53-b8e9-4614-96de-ff8aad7cb349/boards/2203081">Visily Mockups</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Problems Identified</h2>
+        <ul>
+            <li>Low Add-to-Cart conversion</li>
+            <li>Frequent customer support questions about estimated delivery time</li>
+            <li>Desire for a visual refresh that stays familiar</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>How the Redesign Solves Each Issue</h2>
+        <b>Low Add-to-Cart Conversion</b>
+        <ul>
+            <li>Large, high-contrast Add to Cart and Buy Now buttons.</li>
+            <li>Quantity selector beside CTAs for less friction and faster checkout.</li>
+            <li>Trust badges, ratings, and reviews next to price/CTA increase confidence.</li>
+            <li>Price hierarchy (sale price highlighted, list price de-emphasized).</li>
+        </ul>
+        <b>Delivery Time Clarity</b>
+        <ul>
+            <li>Delivery estimator placed under price/CTA, visible at decision point.</li>
+            <li>Real-time date or date-range estimate for entered postal code, fallback message if needed.</li>
+            <li>Conservative auto-estimate always visible for reassurance.</li>
+        </ul>
+        <b>Modern Visuals, Familiar Flow</b>
+        <ul>
+            <li>Fresh accent color, controlled whitespace, info cards, soft shapes.</li>
+            <li>Gallery → Title → Price → Actions order is preserved for returning users.</li>
+            <li>Feature icons/tiles let users scan for pros quickly; accordions/tabs keep content neat.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2> Desktop Mockup</h2>
+        <!-- <div class="imgblock">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/636b2dd3-3b64-4e45-8ecd-893c20f0a6dc.png" alt="Desktop  Mockup">
+        </div> -->
+        <div class="callouts">
+            <b>Callouts:</b>
+            <ul>
+                <li>Large, dominant Add to Cart button.</li>
+                <li>Delivery estimator with postal code field.</li>
+                <li>Ratings and trust badges beside price/CTA.</li>
+                <li>Sale price hierarchy with the old price struck-through.</li>
+                <li>Feature/benefit tiles (Comfort, Returns, etc.).</li>
+                <li>Accent color for actions and highlights.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2> Mobile Mockup</h2>
+        <!-- <div class="imgblock">
+            <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/fa519aeb-fa17-4832-9559-d56312e8d40d.png" alt="Mobile  Mockup">
+        </div> -->
+        <div class="callouts">
+            <b>Callouts:</b>
+            <ul>
+                <li>Sticky Add to Cart and Buy Now buttons always accessible.</li>
+                <li>Delivery estimator visible in the main product area.</li>
+                <li>Quantity adjustment right next to CTA.</li>
+                <li>Collapsible/accordion content sections for mobile readability.</li>
+                <li>Trust badges placed at the decision point for confidence.</li>
+                <li>Comfort/durability/feature icons in prominent position.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Developer Checklist & Implementation Ease</h2>
+        <ul>
+            <li>Components: modular, reusable (ProductGallery, PurchaseCard, DeliveryEstimator).</li>
+            <li>DeliveryEstimator connects easily to an API endpoint (GET /api/shipping/estimate).</li>
+            <li>All microcopy in English and Hungarian prepared up front for internationalization.</li>
+            <li>Design easily mapped to framework components (React, Vue, Angular).</li>
+            <li>Accessibility: ARIA labels, color contrast, and focus styles included.</li>
+            <li>Error and edge-case handling specified for all interactive areas.</li>
+        </ul>
+    </div>
+   
+</body>
+</html>
